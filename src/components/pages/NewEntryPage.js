@@ -2,8 +2,10 @@ import React, { Component } from "react";
 
 class NewEntryPage extends Component {
     render() {
+        const { categories } = this.props
+
         return(
-            <h1>This is the New Entry Page</h1>
+            <h1>New Entry</h1>
         )
     }
 }
